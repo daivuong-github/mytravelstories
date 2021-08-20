@@ -7,6 +7,61 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <img src="desert.jpg" alt="aircraft" />
+        <nav>
+            <a href ="./index.html">Home</a>
+            <a href ="./contact.html">Reach Me</a>
+
+        </nav>
+        <section>
+            <h1>Let's Connect</h1>
+            <blockquote>"Life is a daring adventure or nothing at all"</blockquote>
+            <br>
+        </section>
+    </header>
+    <main>
+            <form action="#">
+                <fieldset>
+                    <legend>Your Details</legend>
+                    <label for ="first">First Name</label>
+                    <input type="text" id="first" name="first" placeholder="First Name" required >
+                    <br>
+                    <br>
+                    <label for="last">Last Name</label>
+                    <input type="text" id="last" name="last"  required placeholder="last name" >
+                    <br>
+                    <br>
+                    <label for="country">Country</label>
+                    <input type="text" id="first" name="first" list="countrylist" required placeholder="choose or enter">
+                        <datalist id="countrylist">
+                            <option value="Australia"></option>
+                            <option value="America"></option>
+                            <option value="canada"></option>
+                            <option value="Denmark"></option>
+                            <option value="England"></option>
+                            <option value="France"></option>
+                            <option value="Germany"></option>
+                        </datalist>
+                </fieldset>
+                <br>
+                <label for="choice">How did you hear about me?</label>
+                <input type="radio" id="web" name="choice" value="website" required >
+                <label for="web">Website</label>
+                <input type="radio" id="face" name="choice" value="facebook" required >
+                <label for="face">Facebook</label>
+                <br>
+                <br>
+                <label for="comment">Leave your Comment Here</label>
+                <br>
+                <textarea id="comment" name="comment" rows="5" cols="30">Write something</textarea>
+                <br>
+                <input type ="submit" value="Submit"/>
+            </form>
+        </section>
+        <footer>
+         Copyright 2020, All rights reserved .Made with  ♡
+        </footer>
+    </main>
 </body>
 </html>
